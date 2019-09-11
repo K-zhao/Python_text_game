@@ -19,7 +19,7 @@ print ("You wake up and look around. It is a typical day.")
 time.sleep(1)
 print ("What do you want to do?")
 time.sleep(1)
-print ("Press S to go to shop, or F to go Fight")
+print ("Press \"S\" to go to shop, or \"F\" to go Fight")
 def Decision_1():
     while True:
         Decision1 = input("")    
@@ -34,3 +34,19 @@ def Decision_1():
             continue
 Decision_1()
 
+def Shop:
+    print("Hello mate, and welcome to the shop. What can I help you with today?")
+    print ("Press S to buy a sword, a to buy a bow & arrow, or b to exit the store")
+    if Shop == "S" or Shop == "s":
+            print ("You have bought the sword")
+            continue
+        elif Shop == "A" or Shop == "a":
+            print ("You have bought the Bow & Arrow")
+            break
+        elif Shop == "B" or Shop == "b":
+            print ("You have exited the store")
+            break
+        else:
+            print ("You didn't enter a valid option. Try again.")
+            continue
+Shop()
